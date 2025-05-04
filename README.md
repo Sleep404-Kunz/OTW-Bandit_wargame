@@ -48,7 +48,7 @@ The entire filename can be wrapped in quotes or backslash key can be used before
 ```cat "spaces in this filename"``` 
 ```cat spaces\ in\ this\ filename```
 
-<img src = "https://github.com/user-attachments/assets/b828c880-ba83-43f1-a2d3-21165731e050" widht = "200">
+<img src = "https://github.com/user-attachments/assets/b828c880-ba83-43f1-a2d3-21165731e050" widht = "100">
 
 _**Password : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**_
 
@@ -68,18 +68,25 @@ The password in this level is stored in the only human-readable file in the inhe
 
 The "file" command with the "-i" argument is used to identify the file MIME type. MIME is a standard that indicates the format of a file. 
 
-<img src = "https://github.com/user-attachments/assets/603498ec-4287-4ea4-9193-a5d28bcfb4de" width = "400">
+<img src = "https://github.com/user-attachments/assets/603498ec-4287-4ea4-9193-a5d28bcfb4de" width = "500">
 
 _**Password :4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw**_
 
 
 ## Level 5 
 
-<img src = "" width = "">
+The password in this level is stored in a file in the "inhere" directory and has the following properties. 
+- human-readable
+- 1033 bytes in size
+- not executable
 
-_**Password : **_
+The properties of the file can be verified with the find command and the arguments "size","-executable"
 
-## Level
+<img src = "https://github.com/user-attachments/assets/8b47c1a7-e573-40b0-b9e7-2031e313f7a6" width = "300">
+
+_**Password :HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**_
+
+## Level 6
 
 <img src = "" width = "">
 
