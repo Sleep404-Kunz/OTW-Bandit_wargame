@@ -28,7 +28,95 @@ This password is to be used to log into the next level **bandit1** on the machin
 
 ## Level 1
 
-In this level I have to find the password in a file named "-" in the home directory.
+In this level I have to find the password in a file named "-" in the home directory. Interacting with the dashed filename presents some obstacles because the dash "-" is generally used by commands to specify options and arguments. 
+
+To open and read the content of the dashed file I need to specify the option "<" or "./" before the filename. 
+
+```cat < -``` 
+```cat ./-```
+
+<img src = "https://github.com/user-attachments/assets/3d38f8fa-cc19-49ce-b1bd-32c68c4f9e02" width = "300">
+
+_**Password : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx**_
+
+## Level 2
+
+This level requires me to find the password in a file called "spaces in this filename" in the home directory. The spaces in the filename can be interpreted as separtor for arguments and hence is generally avoided or substituted with an alternative character like "_"
+
+The entire filename can be wrapped in quotes or backslash key can be used before the spaces. 
+
+```cat "spaces in this filename"``` 
+```cat spaces\ in\ this\ filename```
+
+<img src = "https://github.com/user-attachments/assets/b828c880-ba83-43f1-a2d3-21165731e050" widht = "300">
+
+_**Password : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**_
+
+## Level 3 
+
+The password in this level is stored in the "inhere" directory. The file is hidden and is not shown when the basic "ls" command is used. 
+
+The hidden files and directories can be revealed using the "-a" option with the ls command. 
+
+<img src = "https://github.com/user-attachments/assets/34fa015e-230f-4df0-812d-de349475d90b" width = "300">
+
+_**Password :2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ**_
+
+## Level 4
+
+The password in this level is stored in the only human-readable file in the inhere directory. The directory has multiple files and all of them needs to be checked if the contents are in human readable format. 
+
+The "file" command with the "-i" argument is used to identify the file MIME type. MIME is a standard that indicates the format of a file. 
+
+<img src = "https://github.com/user-attachments/assets/603498ec-4287-4ea4-9193-a5d28bcfb4de" width = "">
+
+_**Password :4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw**_
+
+
+## Level 5 
+
+<img src = "" width = "">
+
+_**Password : **_
+
+## Level
+
+<img src = "" width = "">
+
+_**Password : **_
+
+## Level
+
+<img src = "" width = "">
+
+_**Password : **_
+
+## Level
+
+<img src = "" width = "">
+
+_**Password : **_
+
+## Level
+
+
+## Level
+
+
+## Level
+
+
+## Level
+
+
+## Level
+
+
+
+
+
+
+
 
 
 
