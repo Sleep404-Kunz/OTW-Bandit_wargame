@@ -88,6 +88,13 @@ _**Password :HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**_
 
 ## Level 6
 
+The password in this level is stored on the machine and has the following properties:
+- owned by user bandit7
+- owned by group bandit6
+- 33 bytes in size
+
+This is an advanced version of the previous task. I need to find by user, group and size. 
+
 <img src = "" width = "">
 
 _**Password : **_
