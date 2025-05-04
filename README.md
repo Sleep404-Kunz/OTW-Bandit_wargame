@@ -82,7 +82,7 @@ The password in this level is stored in a file in the "inhere" directory and has
 
 The properties of the file can be verified with the find command and the arguments "size","-executable"
 
-<img src = "https://github.com/user-attachments/assets/8b47c1a7-e573-40b0-b9e7-2031e313f7a6" width = "300">
+<img src = "https://github.com/user-attachments/assets/8b47c1a7-e573-40b0-b9e7-2031e313f7a6" width = "500">
 
 _**Password :HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**_
 
