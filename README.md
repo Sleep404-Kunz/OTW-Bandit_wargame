@@ -24,8 +24,6 @@ After logging into the machine, I have to obtain the password for the next level
 
 <img src = "https://github.com/user-attachments/assets/74fb23ae-e587-4f7a-8703-e5918078ff17" width = "400">
 
-_**Password : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**_
-
 This password is to be used to log into the next level **bandit1** on the machine.
 
 ## Level 1
@@ -39,8 +37,6 @@ To open and read the content of the dashed file I need to specify the option "<"
 
 <img src = "https://github.com/user-attachments/assets/43bfdc24-c401-4eb3-9d25-3493b4d21148" width = "300">
 
-_**Password : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx**_
-
 ## Level 2
 
 This level requires me to find the password in a file called "spaces in this filename" in the home directory. The spaces in the filename can be interpreted as separtor for arguments and hence is generally avoided or substituted with an alternative character like "_"
@@ -50,9 +46,7 @@ The entire filename can be wrapped in quotes or backslash key can be used before
 ```cat "spaces in this filename"``` 
 ```cat spaces\ in\ this\ filename```
 
-<img src = "https://github.com/user-attachments/assets/b828c880-ba83-43f1-a2d3-21165731e050" widht = "100">
-
-_**Password : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**_
+<img src = "https://github.com/user-attachments/assets/955b5f69-3a70-48dc-bf73-0a5ccdd9b253" widht = "50">
 
 ## Level 3 
 
@@ -60,9 +54,7 @@ The password in this level is stored in the "inhere" directory. The file is hidd
 
 The hidden files and directories can be revealed using the "-a" option with the ls command. 
 
-<img src = "https://github.com/user-attachments/assets/34fa015e-230f-4df0-812d-de349475d90b" width = "300">
-
-_**Password : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ**_
+<img src = "https://github.com/user-attachments/assets/6e9f1410-36dc-415d-9e15-7b596bffcca2" width = "300">
 
 ## Level 4
 
@@ -70,10 +62,7 @@ The password in this level is stored in the only human-readable file in the inhe
 
 The "file" command with the "-i" argument is used to identify the file MIME type. MIME is a standard that indicates the format of a file. 
 
-<img src = "https://github.com/user-attachments/assets/603498ec-4287-4ea4-9193-a5d28bcfb4de" width = "500">
-
-_**Password : 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw**_
-
+<img src = "https://github.com/user-attachments/assets/4b9c4837-fe4a-428d-bd1e-7a5642a13540" width = "500">
 
 ## Level 5 
 
@@ -84,9 +73,7 @@ The password in this level is stored in a file in the "inhere" directory and has
 
 The properties of the file can be verified with the find command and the arguments "size","-executable"
 
-<img src = "https://github.com/user-attachments/assets/8b47c1a7-e573-40b0-b9e7-2031e313f7a6" width = "500">
-
-_**Password : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**_
+<img src = "https://github.com/user-attachments/assets/de08ad43-e94b-4ec3-8345-b236b73ef753" width = "500">
 
 ## Level 6
 
@@ -103,9 +90,7 @@ The command above shows multiple files that have permission restrictions. To fil
 
 ```find / -user bandit7 -group bandit6 -size 33c 2>/dev/null ```
 
-<img src = "https://github.com/user-attachments/assets/4fd1b6cb-21e8-4438-9e2b-191e27f08998" width = "500">
-
-_**Password : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj**_
+<img src = "https://github.com/user-attachments/assets/e403b566-db55-4bd2-8960-1610bb5fe1e4" width = "500">
 
 ## Level 7
 
@@ -115,9 +100,7 @@ I can pipe the output from the cat command into the grep command to output the l
 
 ```cat data.txt | grep millionth```
 
-<img src = "https://github.com/user-attachments/assets/6a4d4cbe-6e95-40f8-99c2-367153bfa180" width = "500">
-
-_**Password : dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc**_
+<img src = "https://github.com/user-attachments/assets/58eb4988-f660-47a0-936f-e5f1ab14a5f2" width = "500">
 
 ## Level 8
 
@@ -127,11 +110,11 @@ The file contains multiple passwords occuring more than once and the correct pas
 
 ```sort data.txt | uniq -u```
 
-<img src = "https://github.com/user-attachments/assets/113a91fc-1844-46a8-8591-96d6c61f8bb3" width = "500">
+<img src = "https://github.com/user-attachments/assets/7539f591-52ae-47bb-86b9-39a785da758d" width = "500">
 
 _**Password : 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM**_
 
-## Level 9
+## Level 9 (In progress :construction:)
 
 The password for in this level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
