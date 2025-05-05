@@ -60,7 +60,7 @@ The hidden files and directories can be revealed using the "-a" option with the 
 
 <img src = "https://github.com/user-attachments/assets/34fa015e-230f-4df0-812d-de349475d90b" width = "300">
 
-_**Password :2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ**_
+_**Password : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ**_
 
 ## Level 4
 
@@ -70,7 +70,7 @@ The "file" command with the "-i" argument is used to identify the file MIME type
 
 <img src = "https://github.com/user-attachments/assets/603498ec-4287-4ea4-9193-a5d28bcfb4de" width = "500">
 
-_**Password :4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw**_
+_**Password : 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw**_
 
 
 ## Level 5 
@@ -84,7 +84,7 @@ The properties of the file can be verified with the find command and the argumen
 
 <img src = "https://github.com/user-attachments/assets/8b47c1a7-e573-40b0-b9e7-2031e313f7a6" width = "500">
 
-_**Password :HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**_
+_**Password : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**_
 
 ## Level 6
 
@@ -93,38 +93,73 @@ The password in this level is stored on the machine and has the following proper
 - owned by group bandit6
 - 33 bytes in size
 
-This is an advanced version of the previous task. I need to find by user, group and size. 
+This is an advanced version of the previous task. I need to find by user, group and size. I can use the find command with the "user", "group", and "size" arguments. I will start the find command recursively from the root directory "/".
+
+```find / -user bandit7 -group bandit6 -size 33c```
+
+The command above shows multiple files that have permission restrictions. To filter out the results with permission restrictions, the errors can be redirected from the output on the terminal to "/dev/null" folder. "2>/dev/null" needs to be appended to the command as follows.
+
+```find / -user bandit7 -group bandit6 -size 33c 2>/dev/null ```
+
+<img src = "https://github.com/user-attachments/assets/4fd1b6cb-21e8-4438-9e2b-191e27f08998" width = "500">
+
+_**Password : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj**_
+
+## Level 7
+
+Password for this level is stored in the file data.txt next to the word "millionth". 
+
+I can pipe the output from the cat command into the grep command to output the line that has the word "millionth"
+
+```cat data.txt | grep millionth```
+
+<img src = "https://github.com/user-attachments/assets/6a4d4cbe-6e95-40f8-99c2-367153bfa180" width = "500">
+
+_**Password : dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc**_
+
+## Level 8
+
+The password for the next level is stored in the file data.txt and is the only line of text that occurs only once. 
+
+The file contains multiple passwords occuring more than once and the correct password occuring only once. I can use the "sort" command to group together the duplicate passwords. I can then pipe the output to the "uniq -u" to print only the unique lines without duplicates. 
+
+```sort data.txt | uniq -u```
+
+<img src = "https://github.com/user-attachments/assets/113a91fc-1844-46a8-8591-96d6c61f8bb3" width = "500">
+
+_**Password : 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM**_
+
+## Level 9
+
+The password for in this level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
 <img src = "" width = "">
 
-_**Password : **_
+_**Password  : **_
 
 ## Level
 
 <img src = "" width = "">
 
-_**Password : **_
+_**Password  : **_
 
 ## Level
 
 <img src = "" width = "">
 
-_**Password : **_
+_**Password  : **_
 
 ## Level
 
+<img src = "" width = "">
+
+_**Password  : **_
 
 ## Level
 
+<img src = "" width = "">
 
-## Level
-
-
-## Level
-
-
-## Level
-
+_**Password  : **_
 
 
 
