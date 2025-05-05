@@ -37,7 +37,7 @@ To open and read the content of the dashed file I need to specify the option "<"
 ```cat < -``` 
 ```cat ./-```
 
-<img src = "https://github.com/user-attachments/assets/3d38f8fa-cc19-49ce-b1bd-32c68c4f9e02" width = "300">
+<img src = "https://github.com/user-attachments/assets/43bfdc24-c401-4eb3-9d25-3493b4d21148" width = "300">
 
 _**Password : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx**_
 
