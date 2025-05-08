@@ -90,7 +90,7 @@ The command above shows multiple files that have permission restrictions. To fil
 
 ```find / -user bandit7 -group bandit6 -size 33c 2>/dev/null ```
 
-<img src = "https://github.com/user-attachments/assets/e403b566-db55-4bd2-8960-1610bb5fe1e4" width = "500">
+<img src = "https://github.com/user-attachments/assets/e403b566-db55-4bd2-8960-1610bb5fe1e4" width = "400">
 
 ## Level 7
 
@@ -100,7 +100,7 @@ I can pipe the output from the cat command into the grep command to output the l
 
 ```cat data.txt | grep millionth```
 
-<img src = "https://github.com/user-attachments/assets/58eb4988-f660-47a0-936f-e5f1ab14a5f2" width = "500">
+<img src = "https://github.com/user-attachments/assets/58eb4988-f660-47a0-936f-e5f1ab14a5f2" width = "400">
 
 ## Level 8
 
@@ -110,7 +110,7 @@ The file contains multiple passwords occuring more than once and the correct pas
 
 ```sort data.txt | uniq -u```
 
-<img src = "https://github.com/user-attachments/assets/7539f591-52ae-47bb-86b9-39a785da758d" width = "500">
+<img src = "https://github.com/user-attachments/assets/7539f591-52ae-47bb-86b9-39a785da758d" width = "400">
 
 ## Level 9 (In progress :construction:)
 
