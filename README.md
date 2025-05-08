@@ -126,7 +126,7 @@ The password for this level is stored in the file data.txt, which contains base6
 
 Since the password is encoded in base64 format. It needs to be decoded by piping the output of the cat command into the base64 -d decoding command. 
 
-<img src = "https://github.com/user-attachments/assets/af8f2814-7b8a-4d67-9da2-c4350d420071" width = "">
+<img src = "https://github.com/user-attachments/assets/af8f2814-7b8a-4d67-9da2-c4350d420071" width = "350">
 
 ## Level 11
 
