@@ -112,25 +112,29 @@ The file contains multiple passwords occuring more than once and the correct pas
 
 <img src = "https://github.com/user-attachments/assets/7539f591-52ae-47bb-86b9-39a785da758d" width = "500">
 
-_**Password : 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM**_
-
 ## Level 9 (In progress :construction:)
 
 The password for in this level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
-<img src = "" width = "">
+I can use the strings command to extract human-readable characters. The strings tool is special as it can be used to extract strings even if the file contains binary data. Once the strings are extracted, I can pipe the extracted output to a grep command with the -E option to filter for lines containing two or more "=" signs. 
 
-_**Password  : **_
+<img src = "https://github.com/user-attachments/assets/8813242c-9082-4360-bf12-a1ab8d7e0fd2" width = "350">
 
-## Level
+## Level 10
 
-<img src = "" width = "">
+The password for this level is stored in the file data.txt, which contains base64 encoded data.
 
-_**Password  : **_
+Since the password is encoded in base64 format. It needs to be decoded by piping the output of the cat command into the base64 -d decoding command. 
 
-## Level
+<img src = "https://github.com/user-attachments/assets/af8f2814-7b8a-4d67-9da2-c4350d420071" width = "">
 
-<img src = "" width = "">
+## Level 11
+
+The password in this level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions.
+
+Letters being rotated by 13 postions means that the data is encoded using ROT13 cipher. To decode ROT13 ciphertexts, the output of the cat command can be piped into the tr command which translates the letter using ROT13 cipher. The "A-Za-z" option specifies all uppercase and lowercase letters. The "N-ZA-Mn-za-m" specifies the corresponding letter 13 postions ahead.  
+
+<img src = "https://github.com/user-attachments/assets/24b06649-a35f-48c8-8bf8-7ace7e1bc5ff" width = "350">
 
 _**Password  : **_
 
