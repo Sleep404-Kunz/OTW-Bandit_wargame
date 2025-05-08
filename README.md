@@ -136,7 +136,7 @@ Letters being rotated by 13 postions means that the data is encoded using ROT13 
 
 <img src = "https://github.com/user-attachments/assets/24b06649-a35f-48c8-8bf8-7ace7e1bc5ff" width = "350">
 
-_**Password  : **_
+_**Password  : 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4**_
 
 ## Level 12 (In progress :construction:)
 
