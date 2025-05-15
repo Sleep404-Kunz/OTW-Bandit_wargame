@@ -142,6 +142,8 @@ _**Password  : 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4**_
 
 The password in this level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work. Use mkdir with a hard to guess directory name. Or better, use the command “mktemp -d”. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
+The contents of the file shows hexadecimal data. I will first convert the hexadecimal data into binary data. The xxd command can be used convert the data. 
+
  cd /tmp/tmp.sE1tvxSscn
  
 <img src = "" width = "">
